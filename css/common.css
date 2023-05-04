@@ -1,0 +1,17 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --accent-hover-color: #404bbf;
+  --border-btn-color: #e7e9fc;
+  --footer-hover-color: #31d0aa;
+  --animation-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+body {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}

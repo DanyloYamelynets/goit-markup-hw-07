@@ -1,0 +1,130 @@
+/* =====ГЕРОЙ====== */
+@media screen and (min-width: 429px){
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero-bg-tablet@2x.jpg');
+  }
+}
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  /* ====XEDEP==== */
+.mobile-menu {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
+nav {
+  display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+  }
+.header-mobile {
+  margin: 0;
+  
+}
+.main-nav {
+  width: 100%;
+}
+address {
+  display: flex;
+}
+.address-list {
+  flex-direction: column;
+  gap: 12px;
+}
+
+  /* =Секція ВЛАСТИВОСТІ= */
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .feature-name {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* =====Секція КОМАНДА======= */
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+/* =Секція ЗАМОВНИКИ========= */
+  .customers-list {
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 72px;
+}
+.customer-item {
+  width: calc((100%-120px) / 4.3928);
+  height: 88px;
+}
+
+/* ======ФУТЕР================= */
+.footer-container {
+  /* margin-left: auto;
+  margin-right: auto; */
+  min-width: 768px;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-direction: unset;
+justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.subscribe-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-socials {
+    /* width: 75%; */
+  margin-right: 0;
+  margin-bottom: 72px;
+  
+}
+.footer-subscribe {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    width: 75%;
+}
+.label-list {
+    flex-direction: unset;
+    justify-content: left;
+    text-align: center;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+.footer-media {
+  text-align: left;
+}
+}
