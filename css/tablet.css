@@ -55,6 +55,10 @@
   .header-wrapper {
     display: flex;
   }
+  .page-header {
+     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
   /* =============ГЕРОЙ========= */
   .hero-title {
     font-size: 56px;
@@ -99,13 +103,13 @@
 
   /* ======ФУТЕР================= */
   .footer-container {
-    /* margin-left: auto;
-  margin-right: auto; */
+    margin-left: auto;
+  margin-right: auto;
     min-width: 768px;
-    padding-left: 15px;
+    padding-left: 108px;
     padding-right: 15px;
-    flex-direction: unset;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -116,16 +120,10 @@
     justify-content: center;
   }
   .footer-socials {
-    /* width: 75%; */
-    margin-right: 0;
+    margin-right: 24px;
     margin-bottom: 72px;
   }
-  .footer-subscribe {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    width: 75%;
-  }
+  
   .label-list {
     flex-direction: unset;
     justify-content: left;
@@ -137,5 +135,7 @@
   .footer-media {
     text-align: left;
   }
-  
+  .footer-label {
+  min-width: 264px;
+}
 }
