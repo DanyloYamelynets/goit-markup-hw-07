@@ -411,6 +411,7 @@ address a {
   padding-bottom: 100px;
 }
 .footer-socials {
+    margin-bottom: 0px;
   margin-right: 120px;
 }
 .footer-media {
@@ -506,6 +507,9 @@ address a {
   align-items: center;
   position: absolute;
   fill: currentColor;
+}
+.footer-subscribe {
+  width: 264px;
 }
 /* -============================Кнопки==========================- */
 button {
