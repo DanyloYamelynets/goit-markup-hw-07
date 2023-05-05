@@ -216,7 +216,7 @@ address a {
 .btn-icon {
   stroke: black;
 }
-.current {
+.actual {
 color: var(--accent-hover-color)
 }
 /* /* =============ГЕРОЙ========= */
@@ -568,7 +568,7 @@ color: var(--accent-hover-color)
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 .footer-email:focus {
   border: 1px solid var(--accent-color);
