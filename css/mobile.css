@@ -620,8 +620,8 @@ color: var(--accent-hover-color)
   margin: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
+  flex-direction: column;
+  align-items: center;
   row-gap: 48px;
 }
 .section-list {
@@ -641,7 +641,7 @@ color: var(--accent-hover-color)
   margin-top: 0;
 }
 .portfolio-items {
-  width: 360px;
+  width: 396px;
 }
 .portfolio-text {
   padding: 32px 16px;
@@ -691,9 +691,10 @@ button {
   margin: 0;
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+  margin-bottom: 48px;
 }
 .button.primary {
   display: block;
