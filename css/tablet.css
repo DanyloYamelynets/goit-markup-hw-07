@@ -139,6 +139,10 @@
   min-width: 264px;
 }
 /* Портфоліо */
+.section-portfolio {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
 .button-list {
   justify-content: center;
   margin-bottom: 64px;
