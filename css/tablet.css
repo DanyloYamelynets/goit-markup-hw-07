@@ -138,4 +138,18 @@
   .footer-label {
   min-width: 264px;
 }
+/* Портфоліо */
+.button-list {
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.list-portfolio {
+  flex-direction: unset;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;
+}
+.portfolio-items {
+  width: 356px;
+}
 }
